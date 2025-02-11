@@ -29,7 +29,7 @@ graph TD
 
 ## 2. Estratégia e Massa de Testes
 
-Utilei o Gherkin para definir os cenários de testes.
+Utilizei o Gherkin para definir os cenários de testes. Abaixo estão alguns exemplos:
 
 I. Eficiência na Distribuição de Pedidos `(features/EficienciaDistribuicao.feature)`
 
@@ -81,6 +81,8 @@ def step_impl(context):
 def step_impl(context):
     assert context.tempo_atribuicao < 120, f"Tempo de atribuição excedido: {context.tempo_atribuicao}s"
 ````
+
+Para vizualizar os arquivos completos, visualize as pastas `features` e `steps`.
 
 ## Rodando os Testes
 
